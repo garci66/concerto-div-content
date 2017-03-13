@@ -57,7 +57,7 @@ class DivContent < Content
 
   def self.preview(data)
     "<iframe style='width: 90%; height: 100%; border: none;' 
-      id='iframe-div' src='#{data[:iframe_url]}'></iframe>"
+      id='iframeDiv' src='#{data[:iframe_url]}'></iframe>"
   end
 
 end
