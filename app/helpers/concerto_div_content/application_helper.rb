@@ -1,4 +1,4 @@
-module ConcertoIframe
+module ConcertoDivContent
   module ApplicationHelper
   end
 end

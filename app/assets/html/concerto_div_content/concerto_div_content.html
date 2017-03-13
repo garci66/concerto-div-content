@@ -1,7 +1,7 @@
 <!--
-The `concerto-iframe` element provides embedded content
+The `concerto-div-content` element provides embedded content
 -->
-<dom-module id="concerto-iframe">
+<dom-module id="concerto-div-content">
   <style>
     :host {
       display: block;
@@ -15,12 +15,12 @@ The `concerto-iframe` element provides embedded content
   </style>
 
   <template> 
-    <iframe id="iframe" frameBorder="0"></iframe>
+    <iframe id="iframeDiv" frameBorder="0"></iframe>
   </template>
 
   <script>
-    ConcertoIframe = Polymer({
-      is: "concerto-iframe",
+    ConcertoDivContent = Polymer({
+      is: "concerto-div-content",
 
       behaviors: [ConcertoBehaviors.BaseContent],
 
@@ -34,11 +34,11 @@ The `concerto-iframe` element provides embedded content
       },
 
       pathChanged: function() {
-        this.$.iframe.src = this.path;
+        this.$.iframeDiv.src = this.path;
       }
     });
   </script>
 </dom-module>
 <script>
-  ConcertoBehaviors.ContentFactory.registerContent("concerto-iframe", "ConcertoIframe");
+  ConcertoBehaviors.ContentFactory.registerContent("concerto-div-content", "ConcertoDivContent");
 </script>

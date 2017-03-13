@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-  mount ConcertoIframe::Engine => "/concerto_iframe"
+  mount ConcertoDivContent::Engine => "/concerto_div_content"
 end

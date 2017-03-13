@@ -1,4 +1,4 @@
-module ConcertoIframe
+module ConcertoDivContent
   class ApplicationController < ActionController::Base
   end
 end

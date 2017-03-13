@@ -1,4 +1,4 @@
-class Iframe < Content
+class DivContent < Content
   after_initialize :set_kind, :create_config, :load_info
 
   after_find :load_config

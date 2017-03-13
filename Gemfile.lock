@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    concerto_iframe (0.0.1)
+    concerto_div_content (0.0.1)
       rails (~> 3.2)
 
 GEM
@@ -90,5 +90,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  concerto_iframe!
+  concerto_div_content!
   sqlite3

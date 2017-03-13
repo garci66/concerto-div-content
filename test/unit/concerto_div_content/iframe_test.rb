@@ -1,6 +1,6 @@
 require 'test_helper'
 
-module ConcertoIframe
+module ConcertoDivContent
   class IframeTest < ActiveSupport::TestCase
     # test "the truth" do
     #   assert true
