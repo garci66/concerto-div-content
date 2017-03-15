@@ -46,9 +46,9 @@ class DivContent < Content
   end
 
   def url_must_exist
-    if config['url'].empty? || (config['url'] =~ /[a-z]+\:\/\/.+/).nil?
-      errors.add(:url, 'an absolute Url must be specified')
-    end
+    #if config['url'].empty? || (config['url'] =~ /[a-z]+\:\/\/.+/).nil?
+    #  errors.add(:url, 'an absolute Url must be specified')
+    #end
   end
 
   def render_details
