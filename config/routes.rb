@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :divcontents, :controller => :contents, :except => [:index, :show], :path => "content"
+  resources :div_contents, :controller => :contents, :except => [:index, :show], :path => "content"
 end
