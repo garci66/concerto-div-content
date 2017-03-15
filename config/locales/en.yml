@@ -1,4 +1,4 @@
 en:
   activerecord:
     models:
-      divcontent: 'DivContent'
+      div_content: 'DivContent'
